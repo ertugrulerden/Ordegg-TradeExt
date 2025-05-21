@@ -1,4 +1,4 @@
-# Price Empire Helper
+# Trading Assistant Extension
 
 A Chromium based extension that enhances the CS:GO skin trading experience by providing powerful comparison tools between Buff (Chinese trading platform) and Steam Market prices. This project was developed as a hobby project when i was a high school student (in 2023) to create myself a trading assistant.
 
