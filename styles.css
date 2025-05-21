@@ -1,0 +1,263 @@
+input-boxes:not(:placeholder-shown)::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+input-boxes::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input-boxes::-moz-placeholder {
+    opacity: 0;
+}
+
+input-boxes:-ms-input-placeholder {
+    opacity: 0;
+}
+
+input-boxes::placeholder {
+    opacity: 0;
+}
+
+
+.buton-dibi{
+    position: absolute;
+    right: 143px;
+    bottom: 16px;
+
+    height: 20px;
+    width: 100px;
+
+}
+
+
+
+.sag-sol-content{
+    border: none;
+    position: static;
+
+    height: 28px;
+    width: 40px;
+
+    right: 5px;
+    bottom: 5px;
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sag-sol-content:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.move-transition {
+    transition: left 0.5s ease, right 0.5s ease;
+}
+
+
+.gizleme-buton-divs{
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    
+    right: 2px;
+    
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.gizleme-butons{
+    height: 100%;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.158);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.gizleme-butons:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.profit-perc-div{
+    height: 80px;
+    width: 235px;
+
+    margin: 15px;
+    padding: 10px;
+    right: 0px;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profit-perc-input{
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    text-align: left;
+    margin: 8px;
+
+}
+
+.profit-perc-p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+}
+
+
+.buff-history-button{
+    color: rgb(137, 154, 185);
+    background-image: initial;
+    background-color: initial;
+    background: initial;
+    margin-right: 20px;
+    border-color: rgb(72, 89, 124);
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0 6px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    vertical-align: middle;
+    min-width: 120px;
+    background-size: contain!important;
+}
+
+.buff-history-button:hover{
+    background-color: rgb(58, 73, 101);
+}
+
+
+.x-tik-buttons{
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    border-radius: 4px;
+    padding: 1px;
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.x-tik-buttons:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    padding: 2px;
+}
+
+.reload{
+    height: 21px;
+    width: 60px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(249, 50, 50);
+    border-radius: 4px;
+    padding: 1px;
+    background-color: black;
+    color: rgb(249, 75, 75);
+    transition: all 0.2s ease-in-out;
+    margin-left : 15px;
+}
+
+.reload:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    border-color: rgb(252, 12, 12);
+}
+
+
+.sort-btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #10042f;
+}
+.sort-btn:active{
+    background-color: #060113;
+    opacity: 0.75;
+}
+
+
+.iframe{
+    position: fixed;
+    height: 80vh;
+    width: 50vw;
+    background-color: crimson;
+    margin: 0px;
+    padding: 0px;
+
+    top: 30px;
+    left: 90%;
+    transform: translate(-90%, 0%);
+
+    border: none;
+    border-radius: 5px;
+
+    transition: all 0.3s ease-out;
+}
+
+.button-iframe{
+    height: 30px;
+    width: fit-content;
+    border: none;
+    border-radius: 4px;
+    padding: 1px;
+    margin: 0px;
+    position: flex;
+    flex-direction: row;
+    display: inline-flex;
+    margin-left: 8px;
+
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.button-iframe:hover{
+    opacity: 0.9;
+}
+.button-iframe:active{
+    opacity: 0.5;
+}

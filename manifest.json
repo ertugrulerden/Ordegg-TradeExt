@@ -1,0 +1,35 @@
+{
+    "name": "ordeGG-PriceEmpire",
+    "version": "1.0.0",
+    "description": "ordeGG-PriceEmpire",
+    "author": "ordeGG",
+    "permissions" : [
+        "tabs",
+        "clipboardWrite"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["index.js"],
+            "css": ["styles.css"],
+            "run_at": "document_end"
+        }
+    ],
+
+    "manifest_version": 2,
+
+    
+    "background": {
+        "scripts": ["bg.js"]
+    },
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+      
+}

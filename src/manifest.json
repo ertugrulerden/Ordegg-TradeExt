@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Price Empire Helper",
+    "version": "1.0",
+    "description": "A Chrome extension to enhance Price Empire functionality",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.pricempire.com/*",
+        "https://*.steamcommunity.com/*"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.pricempire.com/*",
+                "https://*.steamcommunity.com/*"
+            ],
+            "js": ["index.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+} 
